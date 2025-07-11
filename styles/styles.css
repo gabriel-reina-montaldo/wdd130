@@ -22,6 +22,35 @@ img {
 }
 
 p {
-    padding: 10px
+    padding: 0;
 }
 
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 250px;
+    height: auto;
+}
+
+main img {
+    width: 110px;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
