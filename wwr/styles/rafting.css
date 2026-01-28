@@ -2,7 +2,7 @@
     --primary-color: #7BA098;
     --secondary-color: #474935;
     --accent1-color: #98CBB4;
-    --accent2-color: #B5FED9;
+    /* --accent2-color: #B5FED9; Still not used */
     --heading-font: "Segoe UI", Arial, sans-serif;
     --body-font: "Segoe UI", Tahoma, Arial, sans-serif;
 }
@@ -28,7 +28,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 nav,
@@ -59,7 +59,7 @@ h1 {
     width: 100%;
     text-align: center;
     padding: 10px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     opacity: 0.7;
     color: white;
 }
@@ -68,8 +68,8 @@ h1 {
     position: absolute;
     top: 90px;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: black;
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 .hero article img {
