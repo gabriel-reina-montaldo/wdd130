@@ -1,8 +1,6 @@
 :root {
     --primary-color: #474935;
-    /* --secondary-color: #7BA098;
-    --accent1-color: #98CBB4; Still not used
-    --accent2-color: #B5FED9; */
+    --secondary-color: #7BA098;
     --heading-font: "Segoe UI", Arial, sans-serif;
     --body-font: "Segoe UI", Tahoma, Arial, sans-serif;
 }
@@ -79,4 +77,9 @@ h1 {
     height: auto;
     padding: 1px;
     border: 1px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
