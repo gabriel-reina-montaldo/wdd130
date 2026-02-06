@@ -135,12 +135,19 @@ nav a {
 
 .adventures {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+}
+
+.adventures h2 {
+    width: 100%;
+    text-align: center;
 }
 
 figure {
     text-align: center;
+    width: 200px;
 }
 
 figure img {
