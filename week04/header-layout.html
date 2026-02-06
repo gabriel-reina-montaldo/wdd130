@@ -13,7 +13,8 @@
 
 <body>
     <header>
-        <img src="https://brotherblazzard.github.io/images/icons/coloredGears.png" alt="Sample Logo">
+        <img src="https://brotherblazzard.github.io/images/icons/coloredGears.png"
+          alt="Sample Logo">
         <div id="logo">Wasatch Accusystems</div>
         <nav>
             <ul class="navigation">
@@ -28,38 +29,47 @@
         <h1>Header and Nav Layouts</h1>
         <section>
             <h2>&lt;header&gt;: CSS Grid</h2>
-            <p>This header is an example of a CSS Grid layout. It uses the <code>display: grid;</code> property to
+            <p>This header is an example of a CSS Grid layout. It uses the
+                <code>display: grid;</code> property to
                 create a grid structure.</p>
-            <p>The header has three children elements: <code>&lt;img&gt;</code>, <code>&lt;div&gt;</code>, and
+            <p>The header has three children elements: <code>&lt;img&gt;</code>,
+                <code>&lt;div&gt;</code>, and
                 <code>&lt;nav&gt;</code>
             </p>
-            <p>These elements are grid items since their parent is a grid container and so these elements participate in
+            <p>These elements are grid items since their parent is a grid container and so these
+                elements participate in
                 the grid layout.</p>
             <p>The header uses the following CSS declarations to create the grid layout:
             <pre><code>display: grid;
  grid-template-columns: 120px 1fr 1fr;
  align-items: center;</code></pre>
             </p>
-            <p>As a result, the header is divided into three areas: a logo area, a title area, and a navigation area
+            <p>As a result, the header is divided into three areas: a logo area, a title area, and a
+                navigation area
                 that are side by side.</p>
 
             <ul>
                 <li><code>display</code> makes the header a grid</li>
-                <li><code>grid-template-columns</code> defines that there are three columns, the first one at a fixed
+                <li><code>grid-template-columns</code> defines that there are three columns, the
+                    first one at a fixed
                     size of 120px and the rest sharing equally the rest of the space</li>
-                <li><code>align-items</code> aligns the grid items to the middle of the header (the grid)</li>
+                <li><code>align-items</code> aligns the grid items to the middle of the header (the
+                    grid)</li>
             </ul>
 
         </section>
 
         <section>
             <h2>&lt;nav&gt;: CSS Flexbox</h2>
-            <p>This navigation is an example of a CSS Flexbox layout. It uses the <code>display: flex;</code> property
+            <p>This navigation is an example of a CSS Flexbox layout. It uses the
+                <code>display: flex;</code> property
                 to
                 create a flexible layout.</p>
-            <p>The nav has one child element: <code>&lt;ul&gt;</code> which has to be the Flex container because its
+            <p>The nav has one child element: <code>&lt;ul&gt;</code> which has to be the Flex
+                container because its
                 child elements (the list items) need to work together as flex items.</p>
-            <p>The <code>ul</code> with the class of <code>navigation</code> uses the following CSS declarations to
+            <p>The <code>ul</code> with the class of <code>navigation</code> uses the following CSS
+                declarations to
                 create the flex layout:
             <pre><code>display: flex;
  list-style: none;</code></pre>
@@ -70,7 +80,8 @@
                 <li><code>list-style</code> removes the default list styling</li>
             </ul>
 
-            <p>The <code>li</code> (list items) <code>flex</code> property is used on the list items to control their
+            <p>The <code>li</code> (list items) <code>flex</code> property is used on the list items
+                to control their
                 size and how they grow or shrink within the nav.</p>
             <pre><code>flex: 1 1 auto;</code></pre>
         </section>
