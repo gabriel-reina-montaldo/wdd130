@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    background-color: whitesmoke;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.7);
+    border-radius: 0.5rem;
+    background-color: antiquewhite;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.7);
+    padding: 1rem;
+}
